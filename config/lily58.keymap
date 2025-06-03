@@ -21,6 +21,11 @@
             bindings = <&kp LC(LA(END))>;
             key-positions = <28 25 31 34>;
         };
+
+        close_app {
+            bindings = <&kp LA(F4)>;
+            key-positions = <42 43>;
+        };
     };
 
     keymap {
